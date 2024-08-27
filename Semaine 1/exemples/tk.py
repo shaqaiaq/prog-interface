@@ -1,5 +1,6 @@
 from tkinter import Tk, Button, Label
 
+
 class Window(Tk):
 
     def __init__(self):

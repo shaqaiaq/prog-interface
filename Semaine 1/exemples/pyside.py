@@ -2,6 +2,7 @@ from PySide6.QtWidgets import QMainWindow, QApplication, QPushButton
 
 import sys
 
+
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
