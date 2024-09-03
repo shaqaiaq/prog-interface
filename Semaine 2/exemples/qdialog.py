@@ -13,15 +13,15 @@ class MainWindow(QMainWindow):
         bouton.clicked.connect(self.bouton_clicked)
         self.setCentralWidget(bouton)
 
-    def bouton_clicked(self, s):
-        print("click", s)
+    def bouton_clicked(self):
+        print("click")
 
         dialogue = QDialog(self)
         dialogue.setWindowTitle("Fenêtre de dialogue")
         dialogue.exec()
 
 
-app = QApplication(sys.argv)
+app = QApplication()
 
 window = MainWindow()
 window.show()
