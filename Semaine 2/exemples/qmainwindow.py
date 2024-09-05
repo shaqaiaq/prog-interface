@@ -7,9 +7,9 @@ from PySide6.QtGui import QAction, QKeySequence, QIcon
 
 class FenetrePrincipale(QMainWindow):
     def __init__(self):
-        super(FenetrePrincipale, self).__init__()
+        super().__init__()
 
-        label_texte = QLabel("texteasdfsadfsadfdsaf")
+        label_texte = QLabel("texte")
 
         self.setCentralWidget(label_texte)
 
@@ -21,8 +21,6 @@ class FenetrePrincipale(QMainWindow):
         bouton_test = QPushButton("Test")
         bouton_test.setIcon(icone)
         bouton_test.pressed.connect(self.action_executee)
-
-
 
         barre_outils = QToolBar("Barre d'outils")
         barre_outils.setIconSize(QSize(16, 16))
@@ -39,6 +37,8 @@ class FenetrePrincipale(QMainWindow):
         self.barre_statut = QStatusBar(self)
         self.barre_statut.setStatusTip("cliquer un bouton")
         self.setStatusBar(self.barre_statut)
+
+        self.setWindowTitle("Exemple QMainWindow")
 
     def creer_menus(self, barre_menus):
         menu_fichier = barre_menus.addMenu("&Fichier")
