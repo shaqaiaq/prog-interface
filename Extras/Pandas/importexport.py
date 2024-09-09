@@ -11,6 +11,8 @@ class Impex:
         self.df = pd.read_csv('Water-Qual-Eau-Sites-National.csv', sep=',')
         # Impression des dix premières lignes
         print(self.df.head(10))
+        # Impression des dix dernières lignes
+        print(self.df.tail(10))
         # Impression des colonnes
         print(self.df.columns)
         # Impression d'une colonne
