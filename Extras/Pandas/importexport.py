@@ -6,11 +6,13 @@ class Impex:
         # Import à partir d'un fichier CSV
         # De façon similaire, il existe des read_json, read_excel, read_sql, etc.
         # On obtient un objet DataFrame (représentation tabulaire des données (dictionnaire))
-        # Chaque colonne est un objet Series
+        # Les clés sont les noms des colonnes et les valeurs sont des objets Series
         print("Import du csv")
         self.df = pd.read_csv('Water-Qual-Eau-Sites-National.csv', sep=',')
         # Impression des dix premières lignes
         print(self.df.head(10))
+        # Impression des dix dernières lignes
+        print(self.df.tail(10))
         # Impression des colonnes
         print(self.df.columns)
         # Impression d'une colonne
