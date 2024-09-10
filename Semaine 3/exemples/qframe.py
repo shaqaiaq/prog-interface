@@ -7,7 +7,7 @@ class FenetrePrincipale(QMainWindow):
         super().__init__()
 
         cadre = QFrame()
-        cadre.setFrameStyle(QFrame.Shape.Box | QFrame.Shape.Raised)
+        cadre.setFrameStyle(QFrame.Shape.Box | QFrame.Shadow.Raised)
         cadre.setBaseSize(QSize(250, 250))
 
         widget_central = QWidget()
@@ -16,7 +16,7 @@ class FenetrePrincipale(QMainWindow):
         disposition.addWidget(cadre)
 
         etiquette = QLabel("Etiquette")
-        etiquette.setFrameStyle(QFrame.Shape.Panel | QFrame.Shape.Raised)
+        etiquette.setFrameStyle(QFrame.Shape.Panel | QFrame.Shadow.Raised)
         disposition.addWidget(etiquette)
 
         self.setCentralWidget(widget_central)
