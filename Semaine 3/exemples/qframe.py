@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import QApplication, QFrame, QLabel, QMainWindow, QWidget, QHBoxLayout
 from PySide6.QtCore import QSize
 
+
 class FenetrePrincipale(QMainWindow):
 
     def __init__(self):
@@ -16,7 +17,7 @@ class FenetrePrincipale(QMainWindow):
         disposition.addWidget(cadre)
 
         etiquette = QLabel("Etiquette")
-        etiquette.setFrameStyle(QFrame.Shape.Panel | QFrame.Shadow.Raised)
+        etiquette.setFrameStyle(QFrame.Shape.Panel | QFrame.Shadow.Sunken)
         disposition.addWidget(etiquette)
 
         self.setCentralWidget(widget_central)
