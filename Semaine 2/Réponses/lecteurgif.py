@@ -56,7 +56,6 @@ class FenetrePrincipale(QMainWindow):
         barre_menu.addMenu(menu_controles)
         self.setMenuBar(barre_menu)
 
-
     def jouer(self):
         self.animation.start()
 

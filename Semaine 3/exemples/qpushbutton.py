@@ -10,7 +10,7 @@ class FenetrePrincipale(QMainWindow):
 
         self.bouton_texte = QPushButton("Ornithorynque")
         self.bouton_texte.clicked.connect(self.bouton_texte_clicked)
-        self.bouton_icone = QPushButton()
+        self.bouton_icone =     QPushButton()
         self.bouton_icone.setIcon(QIcon('platypus.png'))
         self.bouton_icone.clicked.connect(self.bouton_icone_clicked)
         self.bouton_mixte = QPushButton(QIcon('platypus.png'), "Ornithorynque")
