@@ -24,7 +24,6 @@ class FenetrePrincipale(QMainWindow):
         self.avancement = 0
         bouton_avance.clicked.connect(self.bouton_avance)
 
-
     def bouton_avance(self):
         self.avancement = self.avancement + 10
         if self.avancement > 100:
