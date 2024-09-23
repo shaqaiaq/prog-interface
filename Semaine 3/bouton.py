@@ -79,6 +79,7 @@ class FenetrePrincipale(QMainWindow):
 
 
 
+
 app = QApplication()
 window = FenetrePrincipale()
 window.show()
