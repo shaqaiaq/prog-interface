@@ -1,8 +1,8 @@
 import sys
 
 from PySide6.QtGui import QAction
-from PySide6.QtWidgets import QMainWindow, QApplication, QToolBar, QStatusBar, QPushButton, QDialog, QWidget, \
-    QVBoxLayout
+from PySide6.QtWidgets import (QMainWindow, QApplication, QToolBar, QStatusBar, QPushButton, QDialog, QWidget,
+    QVBoxLayout)
 
 
 class MainWindow(QMainWindow):

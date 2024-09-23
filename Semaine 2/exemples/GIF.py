@@ -23,9 +23,9 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(container)
 
 
-        self.action_jouer = QAction(QIcon("jouer.png"), "jouer",self)
+        self.action_jouer = QAction(QIcon("jouer.png"), "Jouer",self)
         self.action_jouer.triggered.connect(self.jouer())
-        self.action_stop = QAction(QIcon("stop.png"), "stop",self)
+        self.action_stop = QAction(QIcon("stop.png"), "Stop",self)
         self.action_stop.triggered.connect(self.stop())
 
         menu = self.menuBar().addMenu("Control bar")
