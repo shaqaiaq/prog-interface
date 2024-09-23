@@ -15,7 +15,7 @@ class FenetrePrincipale(QMainWindow):
         disposition.addWidget(entree_base, 0, 0)
 
         entree_mdp = QLineEdit()
-        entree_mdp.setEchoMode(QLineEdit.Password)
+        entree_mdp.setEchoMode(QLineEdit.EchoMode.Password)
         disposition.addWidget(entree_mdp, 0, 1)
 
         entree_masque = QLineEdit()

@@ -16,6 +16,7 @@ class FenetrePrincipale(QMainWindow):
         radio_canard.setIcon(QIcon('canard.png'))
         radio_orni = QRadioButton("Ornithorynque")
         radio_chien = QRadioButton("Chien")
+        radio_orni.setChecked(True)
 
         groupe_boutons = QButtonGroup()
         groupe_boutons.addButton(radio_canard)
