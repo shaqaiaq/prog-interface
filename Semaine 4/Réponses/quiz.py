@@ -156,7 +156,6 @@ class Quiz(QFrame):
         dialog.exec()
 
 
-
 app = QApplication()
 quiz = Quiz()
 quiz.show()
