@@ -45,6 +45,7 @@ class Quiz(QFrame):
         self.button_group2.addButton(self.checkbox2)
         self.button_group2.addButton(self.checkbox3)
         self.button_group2.buttonClicked.connect(self.question2_repondue)
+        self.button_group2.setExclusive(False)
         disposition_reponses2.addWidget(self.checkbox1)
         disposition_reponses2.addWidget(self.checkbox2)
         disposition_reponses2.addWidget(self.checkbox3)
