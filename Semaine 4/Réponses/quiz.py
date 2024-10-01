@@ -33,7 +33,7 @@ class Quiz(QFrame):
         disposition.addLayout(disposition_question1)
 
         # Question 2
-        question2 = QLabel("Lesquelles de ces aliments sont des fruits?")
+        question2 = QLabel("Lesquels de ces aliments sont des fruits?")
         disposition_question2 = QVBoxLayout()
         disposition_question2.addWidget(question2)
         disposition_reponses2 = QHBoxLayout()
