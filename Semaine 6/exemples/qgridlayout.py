@@ -9,7 +9,9 @@ class FenetrePrincipale(QMainWindow):
         disposition_grid = QGridLayout()
         widget_central.setLayout(disposition_grid)
 
+        # Boucle pour la ligne
         for i in range(4):
+            # Boucle pour la colonne
             for j in range(4):
                 bouton = QPushButton("(" + str(i) + ", " + str(j) + ")")
                 disposition_grid.addWidget(bouton, i, j)
