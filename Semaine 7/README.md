@@ -13,7 +13,7 @@
    Bob: 263  
    Charlie: 96  
    Daniel: 164
-        1) Les barres devront être dessiné avec les options du pinceau et crayon sélectionnés
+        1) Les barres devront être dessinées avec les options du pinceau et crayon sélectionnés
       2) Ajouter les axes
       3) Ajouter le nom sous chaque barre
       4) Assigner une couleur différente à chaque  nom
