@@ -31,7 +31,8 @@ class BitmapAnimation(QMainWindow):
         self.index_image += 1
         self.image_animee.dessiner(self.index_image)
 
-class ImageAnimee():
+
+class ImageAnimee:
 
     def __init__(self, prefixe_image: str, nb_images: int, vue: BitmapAnimation):
         self.prefixe_image = prefixe_image

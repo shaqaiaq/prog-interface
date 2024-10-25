@@ -2,7 +2,7 @@ from PySide6.QtCore import QSize
 from PySide6.QtWidgets import QFrame, QVBoxLayout, QLabel, QApplication, QHBoxLayout, QComboBox, QPushButton
 from PySide6.QtGui import QPixmap
 
-from ChienApi import ChienApiClient
+from chien_api_client import ChienApiClient
 
 
 class ChienApiApp(QFrame):
